@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline: none;
+
+}
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Catamaran', sans-serif;
+}
+
+.form{
+    width: auto;
+    height: auto;
+    color: #fff;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.heading{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+input,
+.submit-btn{
+    width: 80%;
+    height: 35px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    background: rgba(211, 211, 211, 0.448);
+    border-color: none;   
+    color: #000000  ;
+    padding: 15px;
+    transition: .5s;
+    text-transform: capitalize;
+    border:none;
+}
+
+input::placeholder{
+    color:#000000;
+    text-align: center;
+}
+
+input:focus::placeholder{
+    color: #ffffff;
+    transition: .2s;
+}
+
+input:focus,
+.submit-btn:hover{
+    background:#444444af;
+    text-align: center;
+    color:#000000;
+}
+
+.submit-btn{
+    width: auto;
+    padding: 0 20px;
+    cursor: pointer;
+    margin: 10px auto 0;
+
+}
+
+.link{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(57, 53, 53);
+    display:block;
+    margin: 10px auto;
+}
+
+.alert-box{
+    position:absolute;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 150%;
+    max-width: 90%;
+    width: auto;
+    height:auto;
+    padding: 10px;
+    text-transform: capitalize;
+    background: rgb(255, 119, 119);
+    border-top: 10px solid rgb(255, 37, 37);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    transition: .5s;
+}

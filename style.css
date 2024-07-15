@@ -1,0 +1,161 @@
+/* My code*/
+
+.salsa-regular {
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img_girl.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body p{
+    display: block;
+    font-family: 'Salsa';
+    font-size:40px;
+    font-weight: 1000;
+    color:#111;
+    margin:  auto;
+    text-align: center;
+    padding: 20px ;
+}
+
+body h1{
+    display: block;
+    font-family: 'salsa';
+    font-size:45px;
+    font-weight: 1000;
+    color:#111;
+    margin:  auto;
+    text-align: center;
+    padding: 20px ;
+    text-decoration: underline;
+}
+
+
+
+.bg {
+  /* The image used */
+  background-image: url("img/hearts2.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+header {
+  background-position-x: center;
+  width: 100%;
+  height: 100px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+header p{
+  display: block;
+  font-family: 'Salsa';
+  font-size:50px;
+  font-weight: 900;
+  color:#111;
+  text-transform: uppercase;
+  margin: center;
+  text-align: center;
+  padding: 20px;
+}
+
+footer{
+  background-position-x: center;
+  width: 100%;
+  height: 100px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer a{
+  display: block;
+  font-family: 'Salsa';
+  font-size:40px;
+  font-weight: 700;
+  color:#111;
+  text-transform: uppercase;
+  margin: center;
+  text-align: center;
+
+}
+.bg a{
+  display: block;
+  font-family: 'Salsa';
+  font-size:40px;
+  font-weight: 700;
+  color:#111;
+  text-transform: uppercase;
+  margin: center;
+  text-align: center;
+
+}
+
+
+.wrapper img{
+  display: inline-block;
+  margin:auto;
+  width: 15%;
+}
+
+.wrapper{
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.wrapper p{
+  font-size: 20px;
+  font-weight: 1000;
+  line-height: 40px;
+  color:#111;
+  text-align: left;
+  text-indent: 50px;
+}
+
+.wrapper .pic-2 img{
+  display: block;
+  margin:auto;
+  width: 30%;
+}
+
+.Slimy {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 10vh; /* Adjust the height as needed */
+}
+
+.Slimy p {
+  margin: 0; /* Removes default margin */
+}
+ 
+
+
+
